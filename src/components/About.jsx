@@ -1,4 +1,4 @@
-import aboutPic from "../assets/aboutpic.png";
+import melissa from "../assets/Melissa.png";
 
 const About = () => {
   return (
@@ -10,9 +10,9 @@ const About = () => {
           {/* Left: Image */}
           <article className="flex justify-center">
             <img
-              src={aboutPic}
+              src={melissa}
               alt="Portrait of Melissa Escobar Arellano"
-              className="w-64 sm:w-80 md:w-full lg:w-[60%] max-w-sm md:max-w-full h-auto rounded-2xl shadow-lg"
+              className="w-64 sm:w-80 md:w-full lg:w-[75%] max-w-sm md:max-w-full h-auto rounded-2xl shadow-lg"
             />
           </article>
 
@@ -26,24 +26,33 @@ const About = () => {
             </p>
             <div className="text-lg text-[#3C3C3C] tracking-wide font-body leading-relaxed space-y-4">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
-                asperiores vel sint iusto soluta voluptatem nesciunt excepturi
-                molestiae neque.
+                Mi propósito personal es poder ser cada vez más yo, estar
+                conectada a mi centro y a mi esencia, porque sé que ese es mi
+                poder. Desde ese lugar, puedo crear cualquier cosa cimentada en
+                lo que soy y en mi verdad, y transformar la vida de las personas
+                a través de lo que hago.
               </p>
               <p>
-                Voluptas, tenetur! Quos, excepturi dolores harum incidunt illo
-                itaque nulla mollitia! Lorem, ipsum dolor sit amet consectetur
-                adipisicing elit.
+                El amor por el arte y la escritura, y el deseo de encontrar un
+                camino más auténtico en mi vida, me llevaron a crear este
+                espacio. A través de la escritura consciente, descubrí que podía
+                hacerme preguntas que me acercaran más a mi verdadero ser. Este
+                proceso de autodescubrimiento me inspiró a compartir esta
+                herramienta con otros, para que puedan encontrar la misma paz y
+                claridad que yo experimenté.
               </p>
               <p>
-                Provident aperiam voluptate dolores blanditiis voluptatum error
-                facilis ea esse repellat vitae reprehenderit placeat quia,
-                facere amet consequuntur ipsa corporis. Hic, corrupti!
+                Mis valores son el amor, la autenticidad, la libertad, el
+                aprendizaje y el optimismo. Guiada por estos principios, en mis
+                sesiones creo un espacio seguro, libre de juicios, donde cada
+                persona puede explorar su mundo interior y encontrar las
+                respuestas que busca.
               </p>
               <p>
-                Facere, autem accusantium ullam obcaecati deserunt, asperiores
-                mollitia animi sint itaque labore libero error. Laborum, sint
-                unde. Possimus aliquid eos ad atque.
+                La escritura es mi forma de ver el mundo, de entenderme a mí
+                misma y conectar con lo sagrado dentro de mí. Esta práctica me
+                ha permitido sanar, crecer y reconectar con mi esencia, y ahora
+                quiero compartirla contigo.
               </p>
             </div>
           </article>

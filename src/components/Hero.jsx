@@ -1,5 +1,6 @@
-import heroImg from "../assets/hero2.svg";
-import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
+import heroImg from "../assets/HeroPage.svg";
+import { FaInstagram, FaFacebook, FaSpotify } from "react-icons/fa";
+import { SiSubstack } from "react-icons/si";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -36,7 +37,7 @@ const Hero = () => {
               <FaInstagram className="h-8 w-8 text-[#3C3C3C] hover:text-[#9F6D6D] duration-300" />
             </a>
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/share/1FTx7pSoVL/?mibextid=wwXIfr"
               aria-label="Facebook"
               target="_blank"
               rel="noopener noreferrer"
@@ -44,12 +45,20 @@ const Hero = () => {
               <FaFacebook className="h-8 w-8 text-[#3C3C3C] hover:text-[#9F6D6D] duration-300" />
             </a>
             <a
-              href="https://wa.me/"
-              aria-label="WhatsApp"
+              href="https://open.spotify.com/show/5yH1ckw87LBJaqd9DIfcYw?si=h9rItPW8R9SgOEwMI0tD_w "
+              aria-label="Spotify"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaWhatsapp className="h-8 w-8 text-[#3C3C3C] hover:text-[#9F6D6D] duration-300" />
+              <FaSpotify className="h-8 w-8 text-[#3C3C3C] hover:text-[#9F6D6D] duration-300" />
+            </a>
+            <a
+              href="https://substack.com/@melissaescart?utm_campaign=profile&utm_medium=profile-page&utm_source=direct "
+              aria-label="Substack"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <SiSubstack className="h-7 w-7 text-[#3C3C3C] hover:text-[#9F6D6D] duration-300" />
             </a>
           </div>
 

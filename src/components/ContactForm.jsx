@@ -74,15 +74,10 @@ const ContactForm = () => {
               <div className="flex items-center space-x-4">
                 <MdOutlineEmail className="h-7 w-7 text-[#9F6D6D]" />
                 <p className=" text-[#3C3C3C] font-body text-lg">
-                  example@email.com
+                  melissa@escribiendome.com
                 </p>
               </div>
-              <div className="flex items-center space-x-4">
-                <FaWhatsapp className="h-7 w-7 text-[#9F6D6D]" />
-                <p className="text-lg text-[#3C3C3C] font-body">
-                  +123 456 7890 (WhatsApp)
-                </p>
-              </div>
+              <div className="flex items-center space-x-4"></div>
             </div>
           </div>
 
