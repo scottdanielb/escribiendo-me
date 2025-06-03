@@ -1,5 +1,4 @@
 import { nanoid } from "nanoid";
-import { GiDistressSignal, GiBrainstorm } from "react-icons/gi";
 import icon1 from "./assets/Autodescubrimiento.svg";
 import icon2 from "./assets/InteligenciaEmocional.svg";
 import icon3 from "./assets/ResolucionDeConflictos.svg";
@@ -11,10 +10,6 @@ import service2 from "./assets/SesionesGrupales.svg";
 import free1 from "./assets/KitPrimerosAuxiliosEmocionales.svg";
 import free2 from "./assets/RetoSanaciónCreenciasLimitantes.svg";
 import free3 from "./assets/ReconexionContigo.svg";
-import { TbMoodCheck, TbHealthRecognition } from "react-icons/tb";
-import { MdSyncProblem } from "react-icons/md";
-import one from "./assets/one.svg";
-import group from "./assets/group.svg";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "Inicio" },
@@ -29,37 +24,37 @@ export const benefits = [
   {
     id: nanoid(),
     title: "Autodescubrimiento",
-    icon: <img src={icon1} className="h-20 w-20 " />,
+    icon: <img src={icon1} className="h-20 w-20 " loading="lazy" />,
     text: "Conocerás y conectarás contigo mismo y tu autenticidad",
   },
   {
     id: nanoid(),
     title: "Inteligencia Emocional",
-    icon: <img src={icon2} className="h-20 w-20 " />,
+    icon: <img src={icon2} className="h-20 w-20 " loading="lazy" />,
     text: "Mejorarás tu capacidad para reconocer y gestionar tus emociones",
   },
   {
     id: nanoid(),
     title: "Resolucion de Conflictos",
-    icon: <img src={icon3} className="h-20 w-20 " />,
+    icon: <img src={icon3} className="h-20 w-20 " loading="lazy" />,
     text: "La escritura te permitirá procesar conflictos internos y externos",
   },
   {
     id: nanoid(),
     title: "Reduccion de Estres",
-    icon: <img src={icon4} className="h-20 w-20 " />,
+    icon: <img src={icon4} className="h-20 w-20 " loading="lazy" />,
     text: "Disminuirás tus niveles de estrés, ganando paz mental y emocional",
   },
   {
     id: nanoid(),
     title: "Claridad Mental y Orden",
-    icon: <img src={icon5} className="h-20 w-20 " />,
+    icon: <img src={icon5} className="h-20 w-20 " loading="lazy" />,
     text: "Te ayudará a organizar tus pensamientos y tomar decisiones alineadas",
   },
   {
     id: nanoid(),
     title: "Sanacion Espiritual",
-    icon: <img src={icon6} className="h-20 w-20 " />,
+    icon: <img src={icon6} className="h-20 w-20 " loading="lazy" />,
     text: "Reconectarás con tu esencia espiritual y sanarás desde adentro",
   },
 ];

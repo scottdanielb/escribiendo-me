@@ -4,6 +4,7 @@ const FreeResourcesCard = ({ img, href, title, text }) => {
       <img
         src={img}
         alt={title}
+        loading="lazy"
         className="w-full object-cover rounded-t-lg h-64"
       />
       <div className="capitalize p-8">

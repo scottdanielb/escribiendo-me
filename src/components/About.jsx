@@ -1,4 +1,4 @@
-import melissa from "../assets/Melissa.png";
+import melissa from "../assets/Melissa.jpg";
 
 const About = () => {
   return (
@@ -11,6 +11,7 @@ const About = () => {
           <article className="flex justify-center">
             <img
               src={melissa}
+              loading="lazy"
               alt="Portrait of Melissa Escobar Arellano"
               className="w-64 sm:w-80 md:w-full lg:w-[75%] max-w-sm md:max-w-full h-auto rounded-2xl shadow-lg"
             />

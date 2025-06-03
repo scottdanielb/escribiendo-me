@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { FaWhatsapp } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 
 const FloatingInput = ({
